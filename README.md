@@ -48,13 +48,14 @@ npm install
 
 3️⃣ Start Development Server
 
-npm run dev
+npm start
 
 4️⃣ Build & Deploy to Firebase
 
 npm run build
 
 firebase deploy
+
 
 📩 Contact
 📧 anujtiwari@example.com
