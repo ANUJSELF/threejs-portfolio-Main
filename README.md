@@ -16,7 +16,7 @@ This is a 3D Portfolio made using Three.js and React.js which is a Game-like wor
 
 Firebase has been used to deploy this project.
 
-https://vinay-matta.web.app/
+
 
 ## Status
 
