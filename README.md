@@ -35,22 +35,24 @@ This project is actively being developed. Stay tuned for updates!
 ## ⚙️ Setup Instructions  
 
 ### 1️⃣ Clone the Repository  
-```sh
+
 git clone https://github.com/ANUJSELF/threejs-portfolio-Main.git
 cd threejs-portfolio-Main
-2️⃣ Install Dependencies
-sh
-Copy code
+
+###2️⃣ Install Dependencies
+
+
 npm install
-3️⃣ Start Development Server
-sh
-Copy code
+
+###3️⃣ Start Development Server
+
 npm run dev
-4️⃣ Build & Deploy to Firebase
-sh
-Copy code
+
+###4️⃣ Build & Deploy to Firebase
+
 npm run build
 firebase deploy
+
 📩 Contact
 📧 anujtiwari@example.com
 📌 GitHub: ANUJSELF
