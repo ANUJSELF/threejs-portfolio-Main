@@ -53,6 +53,7 @@ npm run dev
 4️⃣ Build & Deploy to Firebase
 
 npm run build
+
 firebase deploy
 
 📩 Contact
