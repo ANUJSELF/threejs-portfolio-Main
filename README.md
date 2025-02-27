@@ -1,25 +1,58 @@
-# Technologies
+# 🌟 Three.js Portfolio Website 🚀  
 
-Three.js
+A **3D Portfolio Website** built using **React, Vite, and Three.js**, showcasing projects, skills, and experience in an interactive 3D space.  
 
-React.js
+![Project Preview](https://raw.githubusercontent.com/ANUJSELF/threejs-portfolio-Main/master/image.png)  
 
-React-Three-Fiber
+---
 
-Blender
+## 🚧 Under Development  
+This project is actively being developed. Stay tuned for updates!  
 
-## Details
+---
 
-This is a 3D Portfolio made using Three.js and React.js which is a Game-like world where we can walk around and interact with various elements. Various 3D models used have been made using Blender and the performance of web-app depends on system specifications.
+## 📌 Features  
+✅ **3D Interactive Elements** with **Three.js**  
+✅ **Responsive Design** for all devices  
+✅ **Smooth Animations** and transitions  
+✅ **Contact Form Integration**  
+✅ **Firebase Hosting** with **GitHub Actions**  
 
-## Deploy
+---
 
-Firebase has been used to deploy this project.
+## 📂 Tech Stack  
+🔹 **Frontend:** React, Vite, Three.js, Tailwind CSS  
+🔹 **Backend:** Firebase (Hosting & Database)  
+🔹 **Deployment:** Firebase Hosting, GitHub Actions  
 
+---
 
+## 🚀 Live Demo  
+🔗 **[Visit the Website](https://anuj-tiwari-afd74.web.app/)** *(This will be updated as the project progresses.)*  
 
-## Status
+---
 
-Not Complete
+## ⚙️ Setup Instructions  
+
+### 1️⃣ Clone the Repository  
+```sh
+git clone https://github.com/ANUJSELF/threejs-portfolio-Main.git
+cd threejs-portfolio-Main
+2️⃣ Install Dependencies
+sh
+Copy code
+npm install
+3️⃣ Start Development Server
+sh
+Copy code
+npm run dev
+4️⃣ Build & Deploy to Firebase
+sh
+Copy code
+npm run build
+firebase deploy
+📩 Contact
+📧 anujtiwari@example.com
+📌 GitHub: ANUJSELF
 
 
