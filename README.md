@@ -39,16 +39,16 @@ This project is actively being developed. Stay tuned for updates!
 git clone https://github.com/ANUJSELF/threejs-portfolio-Main.git
 cd threejs-portfolio-Main
 
-###2️⃣ Install Dependencies
+2️⃣ Install Dependencies
 
 
 npm install
 
-###3️⃣ Start Development Server
+3️⃣ Start Development Server
 
 npm run dev
 
-###4️⃣ Build & Deploy to Firebase
+4️⃣ Build & Deploy to Firebase
 
 npm run build
 firebase deploy
