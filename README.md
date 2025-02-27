@@ -7,7 +7,9 @@ A **3D Portfolio Website** built using **React, Vite, and Three.js**, showcasing
 ---
 
 ## 🚧 Under Development  
-This project is actively being developed. Stay tuned for updates!  
+This project is actively being developed. Stay tuned for updates! 
+
+⚠️ **Note:** This website is **not optimized for mobile devices**. Please use a **desktop** for the best experience.  
 
 ---
 
