@@ -26,6 +26,13 @@ const CameraControls = ({ icon, squidDoll }) => {
   const z_sub = 8;
 
   useEffect(() => {
+/**
+ * Recursively animates a game object's rotation to simulate a start-stop motion.
+ * @param {boolean} game - A flag indicating whether the game should continue.
+ * The function uses GSAP to animate the rotation of the group object and waits for 
+ * a random delay between each animation step. It stops when the game flag is false.
+ */
+
     const startOp = async (game) => {
       if (!game) return;
       gsap.to(group.current.rotation, { y: 0, duration: 0.45 });
@@ -65,6 +72,11 @@ const CameraControls = ({ icon, squidDoll }) => {
   const end = useRef(null);
   let onObject = [];
 
+  /**
+   * Returns a promise that resolves after given milliseconds.
+   * @param {number} ms - The number of milliseconds to wait.
+   * @returns {Promise} A promise that resolves after given milliseconds.
+   */
   const delay = (ms) => {
     return new Promise((resolve) => setTimeout(resolve, ms));
   };
@@ -73,6 +85,13 @@ const CameraControls = ({ icon, squidDoll }) => {
   const velocity = new Vector3();
   const direction = new Vector3();
 
+  /**
+   * Handles keydown events.
+   * 
+   * If the game has not started, this function sets the moveForward, moveLeft, moveBackward, and moveRight variables based on the key pressed.
+   * If the game has started, this function checks if the player is facing the correct direction, if they are not, the game ends. If they are, the function sets the moveForward, moveLeft, moveBackward, and moveRight variables based on the key pressed.
+   * @param {Object} event - The event object.
+   */
   const onKeyDown = function (event) {
     if (!startGame) {
       switch (event.code) {
@@ -135,6 +154,11 @@ const CameraControls = ({ icon, squidDoll }) => {
     }
   };
 
+/**
+ * Handles key up events for the camera controls. Sets the corresponding
+ * movement state to false and resets the velocity.
+ * @param {KeyboardEvent} event - The key up event.
+ */
   const onKeyUp = function (event) {
     switch (event.code) {
       case "ArrowUp":

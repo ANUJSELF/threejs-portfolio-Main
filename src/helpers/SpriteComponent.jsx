@@ -1,12 +1,7 @@
-import { Html } from "@react-three/drei";
 import React from "react";
-import {
-  chatSprite,
-  iicSprite,
-  museumSprite,
-  sfSprite,
-  tttSprite,
-} from "./sprites";
+import { Html } from "@react-three/drei";
+import { anprSprite } from "./sprites";
+
 const spriteStyles = {
   color: "#fff",
   backgroundColor: "rgba(0,0,0,0.8)",
@@ -30,12 +25,10 @@ const SpriteComponent = ({ controlsRef, obj, type }) => {
       ]}
       transform
     >
-      {
-        <>
-          <span>Press E to visit Profile</span>
-          <span>Move out of Plate to Exit</span>
-        </>
-      }
+      <>
+        <span>Press E to visit Profile</span>
+        <span>Move out of Plate to Exit</span>
+      </>
     </Html>
   ) : (
     <Html
@@ -50,18 +43,11 @@ const SpriteComponent = ({ controlsRef, obj, type }) => {
       ]}
       transform
     >
-      {obj ? (
-        (obj === "sf" && sfSprite) ||
-        (obj === "iic" && iicSprite) ||
-        (obj === "chat" && chatSprite) ||
-        (obj === "museum" && museumSprite) ||
-        (obj === "ttt" && tttSprite)
+      {obj === "anpr" ? (
+        anprSprite
       ) : (
         <>
-          <span>Press B for brief introduction</span>
-          <span>Press V to visit Project</span>
-          <span>Press G to visit Project Github</span>
-          <span>Move out of Plate to Exit</span>
+          <span>Project Under Development</span>
         </>
       )}
     </Html>
@@ -69,3 +55,4 @@ const SpriteComponent = ({ controlsRef, obj, type }) => {
 };
 
 export default SpriteComponent;
+
