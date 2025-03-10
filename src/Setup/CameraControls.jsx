@@ -276,7 +276,7 @@ const CameraControls = ({ icon, squidDoll }) => {
       onObject[0].object &&
       onObject[0].object.uuid === contactRef.current.uuid
     ) {
-      contact && window.open("https://anujtiwari-web-app-contact-me.web.app/contact", "contact");
+      contact && window.open("https://chat-app-9edfe.web.app/", "contact");
       setContact(false);
     } else {
       setContact(true);
