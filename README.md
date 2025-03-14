@@ -39,7 +39,7 @@ This project is actively being developed. Stay tuned for updates!
 ### 1️⃣ Clone the Repository  
 
 git clone https://github.com/ANUJSELF/threejs-portfolio-Main.git
-cd threejs-portfolio-Main
+- cd threejs-portfolio-Main
 
 2️⃣ Install Dependencies
 
